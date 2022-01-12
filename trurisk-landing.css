@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Readex+Pro:wght@400;700&display=swap");
+
+/* RESET - */
+* {
+	margin: 0;
+	border: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box; /* Firefox, other Gecko */
+	box-sizing: border-box;
+	font-weight: normal;
+}
+
+/* GENERAL RULES */
+html,
+body {
+	-webkit-font-smoothing: antialiased;
+	font-family: "Readex Pro", sans-serif;
+	font-size: 15px;
+}
+
+header,
+.hero {
+	background: url("images/swirlypinkblueish-BG.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	background-position-x: 100%;
+	background-position-y: 50%;
+}
+
+section > div {
+	margin: 0 auto;
+	width: 800px;
+	max-width: 80vw;
+	padding: 2rem 0;
+	display: flex;
+	gap: 2rem;
+}
+
+/* .gridded {
+	display: flex;
+} */
+.left {
+	flex-grow: 2;
+	flex-shrink: 2;
+}
+.right {
+	width: 300px;
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 3rem;
+}
+h4 {
+	font-weight: 700;
+	padding-bottom: 1rem;
+}
+p {
+	padding-top: 1rem;
+}
+
+.whitebg {
+	background: white;
+	color: black;
+}
+.whitetext {
+	color: white;
+}
+.benefit {
+	padding-top: 2rem;
+}
+.benefit h4 {
+}
+.benefit p {
+	color: lightgrey;
+	padding-top: 0;
+}
+.benefit .icon {
+	float: left;
+	margin-right: 1rem;
+}
+.benefit .icon img {
+	width: 2.5rem;
+}
+.hero {
+	padding-top: 7rem;
+}
+.hero > div {
+	position: relative;
+}
+section > div > * {
+	width: 385px;
+}
+
+/* FORM */
+.signup {
+	position: absolute;
+	right: 0;
+	top: 2rem;
+	width: 285px;
+	box-shadow: 0px 4px 83px rgba(43, 120, 248, 0.18);
+	border-radius: 21px;
+	overflow: hidden;
+}
+.upper,
+.lower {
+	padding: 2rem;
+}
+.lower {
+	background: #37a3fd;
+}
+input[type="text"],
+button,
+select {
+	padding: 0.8rem 1rem;
+	background: rgba(255, 255, 255, 0.1);
+	border: 1px solid #3565b0;
+	border-radius: 5px;
+	margin-top: 8px;
+	width: 100%;
+	font-size: 0.8rem;
+	font-weight: 700;
+}
+input[type="text"] {
+	padding-top: 1.6rem;
+	padding-bottom: 0.3rem;
+	color: white;
+}
+button {
+	background: white;
+	margin-top: 1rem;
+}
+.input-block {
+	position: relative;
+}
+.input-block label {
+	position: absolute;
+	top: 0.7rem;
+	left: 1.3rem;
+	font-size: 0.7rem;
+	color: rgba(255, 255, 255, 0.8);
+}
+.input-block select {
+	color: white;
+}
+.input-block option {
+	color: black;
+}
